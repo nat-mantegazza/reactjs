@@ -1,9 +1,13 @@
 import React from 'react'
+import CartWidget from './CartWidget'
+
 
 const NavBar = () => {
   return (
-    <div> 
-        WineStore
+    <div>
+        WinStore
+        <CartWidget />
+
     </div>
   )
 }
