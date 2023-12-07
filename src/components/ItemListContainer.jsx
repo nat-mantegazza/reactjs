@@ -1,8 +1,11 @@
 import React from 'react'
+import { Center } from '@chakra-ui/react'
 
 const ItemListContainer = ({greeting}) => {
   return (
-    <div>{greeting}</div>
+    <Center p='10'>
+        {greeting}
+    </Center>
   )
 }
 
