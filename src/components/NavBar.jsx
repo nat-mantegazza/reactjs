@@ -14,14 +14,12 @@ const NavBar = () => {
                 <Text fontSize='lg'>
                     <FontAwesomeIcon icon={faWineGlassEmpty} /> WineStore
                 </Text>
-            
             </Box>
             <Spacer />
 
             <Button colorScheme='red' variant='ghost'>
                 Inicio
             </Button>
-            
             <Spacer />
 
             <Menu>
@@ -45,19 +43,13 @@ const NavBar = () => {
                     <MenuItem>Posavasos</MenuItem>
                     <MenuItem>Decantadores</MenuItem>
                 </MenuList>
-            </Menu>
-
-    
-            
+            </Menu>           
             <Spacer />
 
             <Box p='4' bg='red.50'>
                 <CartWidget /> 
             </Box>
         </Flex>
-        
-        
-
     </div>
   )
 }
