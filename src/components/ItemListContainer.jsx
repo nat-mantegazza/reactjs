@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemList from './ItemList'
 import { Center } from '@chakra-ui/react'
 
 const ItemListContainer = ({greeting}) => {
@@ -10,6 +11,12 @@ const ItemListContainer = ({greeting}) => {
     {id: 4, titulo: 'Producto 4', descripcion: 'descripcion del producto 4', precio: 1000},
     {id: 5, titulo: 'Producto 5', descripcion: 'descripcion del producto 5', precio: 1000} 
   ]
+
+  return (
+    <div>
+      <ItemList productos={productos}/>
+    </div>
+  )
 }
 
 export default ItemListContainer

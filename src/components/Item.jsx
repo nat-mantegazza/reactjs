@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import ItemCount from './ItemCount'
 
 
 const Item = (key, titulo, descripcion, precio) => {
@@ -23,7 +24,7 @@ const Item = (key, titulo, descripcion, precio) => {
 
         <CardFooter>
         <Button variant='solid' colorScheme='red'>
-            Comprar
+            <ItemCount/>
         </Button>
         </CardFooter>
     </Stack>
