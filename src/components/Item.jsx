@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Heading, Stack, Text, CardBody, Divider, CardFooter, Button, ButtonGroup } from '@chakra-ui/react'
-
+import { Link } from 'react-router-dom';
 
 const Item = ({ titulo, descripcion, precio }) => {
   return (
@@ -13,7 +13,11 @@ const Item = ({ titulo, descripcion, precio }) => {
         <Divider />
         <CardFooter>
             <ButtonGroup spacing='2'>
-                <Button> Ver detalle </Button>
+                <Button> 
+                  <Link to={'/item/itemId'}>
+                  Ver detalle 
+                  </Link>
+                </Button>
             </ButtonGroup>
         </CardFooter>
     </Card>

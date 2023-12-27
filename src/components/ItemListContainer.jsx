@@ -1,9 +1,13 @@
 import React from 'react'
 import ItemList from './ItemList'
+import { useParams } from 'react-router-dom'
 
 
 
 const ItemListContainer = () => {
+
+  const { categoriaId } = useParams()
+  
 
   const productos = [
     { id: 1, titulo: "Don Malbec", descripcion: "Vino tinto de 750 cc. Bodega Miguel Escorihuela Gascón. Año 2018.", precio: 27999.99, categoria: "Tinto" },
@@ -33,9 +37,14 @@ const ItemListContainer = () => {
       console.log(error)
     })
 
+  
+  const productosFiltrados = productos.filter ((producto) => producto.categoria == categoriaId )
+
   return (
     <div>
-      <ItemList productos={productos}/>
+      {
+        categoriaId ? <ItemList productos={productosFiltrados}/> : <ItemList productos = {productos} />
+      }
     </div>
   )
 }

@@ -32,9 +32,15 @@ const NavBar = () => {
                     Vinos
                 </MenuButton>
                 <MenuList>
-                    <MenuItem>Tinto</MenuItem>
-                    <MenuItem>Blanco</MenuItem>
-                    <MenuItem>Rosado</MenuItem>
+                    <Link to={'/categoria/Tinto'}>
+                        <MenuItem>Tinto</MenuItem>
+                    </Link>
+                    <Link to={'/categoria/Blanco'}>
+                        <MenuItem>Blanco</MenuItem>
+                    </Link>
+                    <Link to={'/categoria/Rosado'}>
+                        <MenuItem>Rosado</MenuItem>
+                    </Link>
                 </MenuList>
             </Menu>
             <Spacer />
