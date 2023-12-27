@@ -10,7 +10,8 @@ const ItemListContainer = () => {
     { id: 2, titulo: "Catena Zapata Malbec Argentino", descripcion: "Vino tinto de 750 cc. Bodega Catena Zapata. Año 2017.", precio: 95499.88, categoria: "Tinto" },
     { id: 3, titulo: "La Linterna Gualtallary Chardonnay", descripcion: "Vino blanco Chardonnay de 750 cc. Bodega La Linterna. Año 2015. ", precio: 52189.91, categoria: "Blanco" },
     { id: 4, titulo: "Pequeñas Producciones Sauvignon Blanc", descripcion: "Vino blanco Sauvignon de 750 cc. Bodega Pequeñas Producciones. Año 2022", precio: 11200.00, categoria: "Blanco" },
-    { id: 5, titulo: "Whispering Angel Rosé", descripcion: "Vino rosado de 750 cc. Bodega Caves d'Esclans. Año 2021", precio: 48499.93, categoria: "Rosado" }
+    { id: 5, titulo: "Whispering Angel Rosé", descripcion: "Vino rosado de 750 cc. Bodega Caves d'Esclans. Año 2021", precio: 48499.93, categoria: "Rosado" }, 
+    { id: 6, titulo: "Finca La Anita Pétalo de Rosa Magnum", descripcion: "Vino rosado de 1500 cc. Bodega Finca La Anita. Año 2021", precio: 44700.00, categoria: "Rosado" }
 
   ]
 

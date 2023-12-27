@@ -38,19 +38,6 @@ const NavBar = () => {
                 </MenuList>
             </Menu>
             <Spacer />
-
-            <Menu>
-                <MenuButton>
-                    Accesorios
-                </MenuButton>
-                <MenuList>
-                    <MenuItem>Sacacorchos</MenuItem>
-                    <MenuItem>Posavasos</MenuItem>
-                    <MenuItem>Decantadores</MenuItem>
-                </MenuList>
-            </Menu>           
-            <Spacer />
-
             <Box p='4' bg='red.50'>
                 <Link to={"cart"}>
                     <CartWidget /> 
