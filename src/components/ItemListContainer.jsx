@@ -38,12 +38,12 @@ const ItemListContainer = () => {
     })
 
   
-  const productosFiltrados = productos.filter ((producto) => producto.categoria == categoriaId )
+  const productosFiltrados = productos.filter((producto) => producto.categoria == categoriaId)
 
   return (
     <div>
       {
-        categoriaId ? <ItemList productos={productosFiltrados}/> : <ItemList productos = {productos} />
+        categoriaId ? <ItemList productos={productosFiltrados} /> : <ItemList productos={productos} />
       }
     </div>
   )

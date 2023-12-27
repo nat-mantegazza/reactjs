@@ -3,7 +3,7 @@ import CartWidget from './CartWidget'
 import { Flex, Spacer, Box, Text, Menu, MenuButton, MenuList, MenuItem, Button } from '@chakra-ui/react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWineGlassEmpty } from '@fortawesome/free-solid-svg-icons'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 
 
@@ -21,7 +21,7 @@ const NavBar = () => {
             <Spacer />
 
             <Button colorScheme='red' variant='ghost'>
-                <Link to={'/'}>
+                <Link to={"/"}>
                     Inicio
                 </Link>
             </Button>
@@ -32,20 +32,20 @@ const NavBar = () => {
                     Vinos
                 </MenuButton>
                 <MenuList>
-                    <Link to={'/categoria/Tinto'}>
+                    <Link to={"/categoria/Tinto"}>
                         <MenuItem>Tinto</MenuItem>
                     </Link>
-                    <Link to={'/categoria/Blanco'}>
+                    <Link to={"/categoria/Blanco"}>
                         <MenuItem>Blanco</MenuItem>
                     </Link>
-                    <Link to={'/categoria/Rosado'}>
+                    <Link to={"/categoria/Rosado"}>
                         <MenuItem>Rosado</MenuItem>
                     </Link>
                 </MenuList>
             </Menu>
             <Spacer />
             <Box p='4' bg='red.50'>
-                <Link to={"cart"}>
+                <Link to={"/cart"}>
                     <CartWidget /> 
                 </Link>
                 
