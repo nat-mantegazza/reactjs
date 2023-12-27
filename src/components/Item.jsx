@@ -36,6 +36,7 @@ export default Item */
 
 import React from 'react'
 import { Card, Heading, Stack, Text, CardBody, Divider, CardFooter, Button, ButtonGroup } from '@chakra-ui/react'
+import ItemCount from './ItemCount'
 
 const Item = ({ titulo, descripcion, precio }) => {
   return (
@@ -54,9 +55,7 @@ const Item = ({ titulo, descripcion, precio }) => {
         <Divider />
         <CardFooter>
             <ButtonGroup spacing='2'>
-            <Button variant='solid' colorScheme='red'>
-                Buy now
-            </Button>
+                <ItemCount />
             </ButtonGroup>
         </CardFooter>
     </Card>

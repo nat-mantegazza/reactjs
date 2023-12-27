@@ -76,7 +76,7 @@ const ItemListContainer = () => {
     if (productos.length > 0) {
       setTimeout(() => {
         resolve(productos)
-      }, 3000)
+      }, 2000)
     }else {
       reject("No se obtuvieron productos")
     }
