@@ -52,7 +52,10 @@ const NavBar = () => {
             <Spacer />
 
             <Box p='4' bg='red.50'>
-                <CartWidget /> 
+                <Link to={"cart"}>
+                    <CartWidget /> 
+                </Link>
+                
             </Box>
         </Flex>
     </div>

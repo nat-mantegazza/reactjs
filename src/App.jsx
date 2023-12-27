@@ -2,7 +2,8 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import ItemListContainer from './components/ItemListContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import CartWidget from './components/CartWidget'
+import Cart from './components/Cart'
+
 
 const App = () => {
   return (
@@ -10,10 +11,9 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route exact path='/' element={<ItemListContainer />}/>
+        <Route exact path='/cart' element={<Cart />}/>
         
       </Routes>
-
-      <ItemListContainer greeting={"Bienvenidos a la tienda!"} />
     </BrowserRouter>
   )
 }
