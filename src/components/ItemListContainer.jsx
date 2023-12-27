@@ -6,11 +6,11 @@ import ItemList from './ItemList'
 const ItemListContainer = () => {
 
   const productos = [
-    { id: 1, titulo: "titulo A", descripcion: "descripcion A", precio: 1000 },
-    { id: 2, titulo: "titulo B", descripcion: "descripcion B", precio: 1000 },
-    { id: 3, titulo: "titulo C", descripcion: "descripcion C", precio: 1000 },
-    { id: 4, titulo: "titulo D", descripcion: "descripcion D", precio: 1000 },
-    { id: 5, titulo: "titulo E", descripcion: "descripcion E", precio: 1000 }
+    { id: 1, titulo: "Don Malbec", descripcion: "Vino tinto de 750 cc. Bodega Miguel Escorihuela Gascón. Año 2018.", precio: 27999.99, categoria: "Tinto" },
+    { id: 2, titulo: "Catena Zapata Malbec Argentino", descripcion: "Vino tinto de 750 cc. Bodega Catena Zapata. Año 2017.", precio: 95499.88, categoria: "Tinto" },
+    { id: 3, titulo: "La Linterna Gualtallary Chardonnay", descripcion: "Vino blanco Chardonnay de 750 cc. Bodega La Linterna. Año 2015. ", precio: 52189.91, categoria: "Blanco" },
+    { id: 4, titulo: "Pequeñas Producciones Sauvignon Blanc", descripcion: "Vino blanco Sauvignon de 750 cc. Bodega Pequeñas Producciones. Año 2022", precio: 11200.00, categoria: "Blanco" },
+    { id: 5, titulo: "Whispering Angel Rosé", descripcion: "Vino rosado de 750 cc. Bodega Caves d'Esclans. Año 2021", precio: 48499.93, categoria: "Rosado" }
 
   ]
 
